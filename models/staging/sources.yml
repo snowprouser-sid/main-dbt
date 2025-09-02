@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: fivetran
+    description: formula 1 datasets with normalized tables
+    database: formula1
+    schema: snowflake_db_raw
+    tables:
+      - name: employee
+        description: EMPLOYEE table.
