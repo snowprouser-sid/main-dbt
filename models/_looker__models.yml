@@ -2,4 +2,4 @@ version: 2
 
 models:
   - name: stg_looker__distribution_centers # Fill in the model name
-    description: stg looker _distribution centers # Fill in an informative description of the model  
+    description: stg looker _distribution centers # Fill in an informative description of the model   
