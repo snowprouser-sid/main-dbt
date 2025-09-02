@@ -3,7 +3,7 @@ my_project:
   outputs:
     dev:
       type: snowflake
-      account: XY27110
+      account: DW78147.central-india.azure
       user: snowprouser
       password: Chanti@22Monday
       role: PC_DBT_ROLE
