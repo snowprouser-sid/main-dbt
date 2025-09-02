@@ -1,0 +1,6 @@
+locations:
+- build:
+    directory: ./main_dbt
+  code_source:
+    module_name: main_dbt.definitions
+  location_name: main_dbt
