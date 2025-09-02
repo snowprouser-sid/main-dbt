@@ -5,11 +5,22 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9,<3.14"
 dependencies = [
-    "dagster",
+    "dagster==1.11",
+    "dagster-dg-cli",
+    "dagster-webserver",
     "dagster-cloud",
+    "dagster-duckdb",
     "dagster-dbt",
-    "dbt-core<1.11",
-    "dbt-snowflake<1.11",
+    "dbt-snowflake",
+    "geopandas",
+    "pandas[parquet]",
+    "shapely",
+    "matplotlib",
+    "smart_open[s3]",
+    "s3fs",
+    "smart_open",
+    "boto3",
+    "pyarrow",
 ]
 
 [project.optional-dependencies]
