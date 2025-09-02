@@ -1,0 +1,8 @@
+packages:
+  - name: dbt_utils
+    package: dbt-labs/dbt_utils
+    version: 1.0.0
+  - name: dbt_artifacts
+    package: brooklyn-data/dbt_artifacts
+    version: 2.6.0
+sha1_hash: 22f5d95aa412842028efb237d17ca1b7a759b64d
