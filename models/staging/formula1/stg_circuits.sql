@@ -11,7 +11,7 @@ with
             lng as longitude,
             to_number(iff(contains(alt, 'N'), null, alt)) as altitude,
             url as circuit_url
-        from circuits
+        from circuits 
     )
 select *
 from renamed
